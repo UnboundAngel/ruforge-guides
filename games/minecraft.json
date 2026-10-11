@@ -1,0 +1,52 @@
+{
+  "slug": "minecraft",
+  "name": "Minecraft",
+  "msStoreId": "9NBLGGH2JHXJ",
+  "sections": [
+    {
+      "title": "Wikis",
+      "resources": [
+        {
+          "url": "https://minecraft.wiki/",
+          "name": "Minecraft Wiki",
+          "line": "Community wiki for blocks, mobs, crafting, mechanics and version history.",
+          "open": "glance"
+        },
+        {
+          "url": "https://www.digminecraft.com/",
+          "name": "DigMinecraft",
+          "line": "Step-by-step crafting recipes and command syntax for every edition.",
+          "open": "glance"
+        }
+      ]
+    },
+    {
+      "title": "Seed maps",
+      "resources": [
+        {
+          "url": "https://www.chunkbase.com/apps/seed-map",
+          "name": "Chunkbase Seed Map",
+          "line": "Biomes, structures and spawn for any seed and version.",
+          "open": "browser"
+        }
+      ]
+    },
+    {
+      "title": "Tools",
+      "resources": [
+        {
+          "url": "https://modrinth.com/",
+          "name": "Modrinth",
+          "line": "Open source host for mods, shaders, resource packs and modpacks.",
+          "open": "browser"
+        },
+        {
+          "url": "https://mcstacker.net/",
+          "name": "MCStacker",
+          "line": "Generator for give, summon and other long commands.",
+          "open": "glance"
+        }
+      ]
+    }
+  ]
+}

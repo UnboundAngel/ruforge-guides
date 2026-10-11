@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "games": [
+    {
+      "slug": "minecraft",
+      "name": "Minecraft",
+      "msStoreId": "9NBLGGH2JHXJ"
+    }
+  ]
+}

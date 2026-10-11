@@ -1,0 +1,14 @@
+{
+  "name": "ruforge-guides",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "index": "node scripts/build-index.mjs",
+    "index:check": "node scripts/build-index.mjs --check"
+  },
+  "devDependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1"
+  }
+}
