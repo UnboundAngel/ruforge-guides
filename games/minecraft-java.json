@@ -1,7 +1,10 @@
 {
-  "slug": "minecraft",
-  "name": "Minecraft",
-  "msStoreId": "9NBLGGH2JHXJ",
+  "slug": "minecraft-java",
+  "name": "Minecraft Java",
+  "msStoreId": "9NXP44L49SHJ",
+  "aliases": [
+    "Minecraft"
+  ],
   "sections": [
     {
       "title": "Wikis",

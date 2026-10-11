@@ -14,6 +14,11 @@
     "name": { "type": "string", "minLength": 1, "maxLength": 100 },
     "steamAppId": { "type": "integer", "minimum": 1 },
     "msStoreId": { "type": "string", "pattern": "^[0-9A-Z]{12}$" },
+    "aliases": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1, "maxLength": 100 },
+      "uniqueItems": true
+    },
     "sections": {
       "type": "array",
       "minItems": 1,

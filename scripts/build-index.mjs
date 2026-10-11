@@ -16,6 +16,7 @@ export function buildIndex() {
       const entry = { slug: g.slug, name: g.name };
       if (g.steamAppId != null) entry.steamAppId = g.steamAppId;
       if (g.msStoreId != null) entry.msStoreId = g.msStoreId;
+      if (Array.isArray(g.aliases) && g.aliases.length) entry.aliases = [...g.aliases];
       return entry;
     })
     .sort((a, b) => (a.slug < b.slug ? -1 : a.slug > b.slug ? 1 : 0));
