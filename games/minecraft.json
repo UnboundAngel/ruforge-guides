@@ -2,6 +2,10 @@
   "slug": "minecraft",
   "name": "Minecraft",
   "msStoreId": "9NBLGGH2JHXJ",
+  "aliases": [
+    "Minecraft Java",
+    "Minecraft Java Edition"
+  ],
   "sections": [
     {
       "title": "Wikis",
