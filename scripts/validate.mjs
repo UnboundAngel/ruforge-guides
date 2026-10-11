@@ -15,10 +15,14 @@ const check = ajv.compile(schema);
 // Must match normalizeUrl in worker/src/validate.ts so the Worker and CI agree on duplicates.
 function normalizeUrl(raw) {
   const u = new URL(raw);
+  u.hostname = u.hostname.replace(/\.+$/, "");
+  for (const key of [...u.searchParams.keys()]) {
+    if (/^(utm_[a-z]+|fbclid|gclid|mc_eid)$/i.test(key)) u.searchParams.delete(key);
+  }
   u.hash = "";
-  let s = u.toString();
-  if (u.pathname !== "/" && s.endsWith("/") && !u.search) s = s.slice(0, -1);
-  return s;
+  u.pathname = u.pathname.replace(/\/index\.(html?|php)$/i, "/");
+  if (u.pathname !== "/") u.pathname = u.pathname.replace(/\/+$/, "");
+  return u.toString();
 }
 
 const errors = [];
