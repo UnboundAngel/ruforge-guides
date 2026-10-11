@@ -1,9 +1,10 @@
 {
-  "slug": "minecraft-java",
-  "name": "Minecraft Java",
-  "msStoreId": "9NXP44L49SHJ",
+  "slug": "minecraft",
+  "name": "Minecraft",
+  "msStoreId": "9NBLGGH2JHXJ",
   "aliases": [
-    "Minecraft"
+    "Minecraft Java",
+    "Minecraft Java Edition"
   ],
   "sections": [
     {
