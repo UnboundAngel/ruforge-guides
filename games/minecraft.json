@@ -49,6 +49,13 @@
           "name": "MCStacker",
           "line": "Generator for give, summon and other long commands.",
           "open": "glance"
+        },
+        {
+          "url": "https://unboundangel.github.io/Craftendium/",
+          "name": "Minecraft Tools Hub",
+          "line": "general-purpose minecraft tool",
+          "open": "glance",
+          "credit": "Angel"
         }
       ]
     }
